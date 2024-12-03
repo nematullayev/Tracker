@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header-wrapper {
+  z-index: 10;
+  height: 200px;
+  background-image: url("./assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.leaflet-container {
+  height: 80vh;
+  width: 100%;
+  z-index: 0;
+}
+@media only screen and (max-width: 766px) {
+  .div {
+    flex-direction: column;
+  }
+}
